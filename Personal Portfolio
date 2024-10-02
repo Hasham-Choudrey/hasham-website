@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hasham Choudrey - Personal Webpage">
+    <title>Hasham Choudrey</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffcccb;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            flex-direction: column;
+        }
+        .bio {
+            font-size: 18px;
+            max-width: 600px;
+            text-align: center;
+            line-height: 1.6;
+        }
+        .bubble {
+            border-radius: 50px;
+            background-color: #ffebcd;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: #0077b5;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        footer {
+            background-color: #ffcccb;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Hasham Choudrey</h1>
+</header>
+
+<div class="container">
+    <div class="bio bubble">
+        <p>Hi there! I'm Hasham Choudrey, a passionate marketing student and a Marketing Administrative Assistant at Uncle Giuseppe's Marketplace. I thrive in creative spaces, from designing signage to managing social media. I'm always learning, always improving, and always here to make the world a little brighter!</p>
+    </div>
+    <p>Connect with me on <a href="https://www.linkedin.com/in/hasham-choudrey-a35980149/" target="_blank">LinkedIn</a>.</p>
+</div>
+
+<footer>
+    © 2024 Hasham Choudrey | All Rights Reserved
+</footer>
+
+</body>
+</html>
